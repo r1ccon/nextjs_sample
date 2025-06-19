@@ -1,16 +1,16 @@
 <div align="center">
 
-# Next.js 15 Template
+  # Next.js 15 Template
 
-<p align="center">
-    <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,github,vscode," />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,github,vscode" />
   </p>
 
 </div>
 
 ## Development
 
-Clone the repository and install bun. We recommend using [mise](https://mise.jdx.dev/).
+Clone the repository and install node.js and pnpm. We recommend using [mise](https://mise.jdx.dev/).
 
 ```sh
 mise install
@@ -19,38 +19,36 @@ mise install
 Install dependencies:
 
 ```sh
-bun install
+pnpm install
 ```
 
 Run the development server:
 
 ```sh
-bun run dev
+pnpm run dev
 ```
 
 ## Development Commands
 
 ```sh
 # Run the development server
-bun run dev
+pnpm run dev
 
 # Run the production server
-bun run build
-bun run start
+pnpm run build
+pnpm run start
 
 # Run the tests
-bun run test
-bun run test:e2e
-bun run coverage
+pnpm run test
 
 # Run the static check (lint & fmt)
-bun run check
+pnpm run check
 
 # Start Storybook
-bun run sb
+pnpm run sb
 
 # Build Storybook
-bun run sb:build
+pnpm run sb:build
 
 # Other commands, see package.json
 ```
