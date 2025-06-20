@@ -18,7 +18,7 @@ export default function Home() {
 						rel="noopener noreferrer"
 					>
 						<Image className="dark:invert" src="/vercel.svg" alt="Vercel logomark" width={20} height={20} />
-						Ibaraki Kosen
+						Ibaraki
 					</a>
 					<a
 						className=" h-10 w-full items-center justify-center rounded-full border border-black/[.08] border-solid px-4 font-medium text-sm transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:w-auto sm:px-5 sm:text-base md:w-[158px] dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
